@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CV - Miguel Alcalá</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+
+	<style type="text/css">
+		.rotar90izq{
+			-webkit-transform:rotate(-90deg);
+			-moz-transform: rotate(-90deg);
+			-ms-transform: rotate(-90deg);
+			-o-transform: rotate(-90deg);
+			transform: rotate(-90deg);
+		}
+	</style>
+</head>
+<body>
+	<header style="width:100%">
+		<div style="display:inline;">
+			<svg width="200" height="100" viewbox="0 0 200 100">
+				<image xlink:href="./media/nombre3.svg" width="200" />
+			</svg>
+		</div>
+		<div style="display:inline;">
+			<h1>Curriculum Vitae</h1>
+			<h2>Miguel Angel Alcalá Rios</h2>
+			<h3>30/09/1990 - San Felix, Venezuela</h3>
+		</div>
+	</header>
+	<nav>
+		<a href="index.html">Inicio</a> |
+		<a href="educacion.html">Educación</a> |
+		<a href="experiencia.html">Experiencia</a>
+	</nav>
+	<h2>
+		Experiencia
+	</h2>
+	<h3>Mis habilidades e intereses</h3>
+	<video preload="auto" width="640" controls>
+		<source src="./media/video02.mp4" type="video/mp4">
+		<source src="./media/video02.wmv" type="video/video/x-ms-wmv">
+	</video>
+	<h3>Hobbies</h3>
+	<audio controls>
+		<source src="./media/audio02.mp3" type="audio/mpeg">
+		<source src="./media/audio02.ogg" type="audio/ogg">
+	</audio>
+	<table>
+		<thead>
+			<th>Año</th>
+			<th>Institución</th>
+			<th>Carrera / Curso</th>
+			<th>Lugar</th>
+			<th>¿Culminó?</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td>2008</td>
+				<td>Universidad Peruana de Ciencias Aplicadas (UPC)</td>
+				<td>Ingeniería Electrónica</td>
+				<td>Monterrico, Lima</td>
+				<td>Sí</td>
+			</tr>
+			<tr>
+				<td>2016</td>
+				<td>Area 51</td>
+				<td>NodeJS & SailsJS</td>
+				<td>San Isidro, Lima</td>
+				<td>Sí</td>
+			</tr>
+			<tr>
+				<td>2015 - 2016</td>
+				<td>New Horizons</td>
+				<td>Excel Básico, Intermedio y Avanzado</td>
+				<td>Lince, Lima</td>
+				<td>Sí</td>
+			</tr>
+		</tbody>
+	</table>
+	<fieldset>
+		<legend>Agregar Estudios</legend>
+		<form>
+			<label for="ano">Año:</label>
+			<input type="number" name="ano" min="1990" max="2090">
+			<br/>
+			<label for="institucion">Institución:</label>
+			<input type="text" name="institucion">
+			<br/>
+			<label for="carrera_curso">Carrera / Curso:</label>
+			<input type="text" name="carrera_curso">
+			<br/>
+			<label for="lugar">Lugar:</label>
+			<textarea name="lugar" rows="3"></textarea>
+			<br/>
+			<label for="culmino">¿Culminó?:</label>
+			<input type="radio" name="culmino" value="1"> Sí
+			<input type="radio" name="culmino" value="0"> No
+			<br/>
+			<input type="submit">
+			<input type="reset">
+		</form>
+	</fieldset>
+	<footer style="text-align:center">
+		<p>
+			correo electrónico: miguel.alcala.rios@gmail.com
+			<br/>
+			número telefónico: 99657-4075
+		</p>
+	</footer>
+</body>
+</html>
